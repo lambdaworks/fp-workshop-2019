@@ -18,9 +18,9 @@ readable and elegant code.
 Main topics that are covered within this repository:
  - Immutability
  - Pure functions
- - First functions
- - Tail recusrion
- - `map`/`filte`/`reduce` functions
+ - First-class functions
+ - Tail recursion
+ - `map`/`filter`/`reduce` functions
 
 ## Where to start?
 
@@ -29,7 +29,7 @@ Project is written in `Scala` programming language and it uses `sbt` as build to
 To start working on this project you need to go through those steps:
  - Install sbt
    
-   You should follow instructions from this [link](https://www.scala-sbt.org/0.13/docs/Setup.html) 
+   You should follow instructions from this [link][sbt-install] 
  
  - Clone the workshop repository
  
@@ -43,7 +43,7 @@ To start working on this project you need to go through those steps:
  - Running the project
     
    To run the project you should type `sbt run` and choose which program you want to run. 
-   If you want to automatically choose the specific class you should run for example.
+   If you want to automatically choose the specific class you should run for example:
    ```
    sbt "runMain io.lambdaworks.workshop.immutability.Immutability"
    ```
@@ -52,11 +52,12 @@ To start working on this project you need to go through those steps:
    
  - Every package covers different topic and has `README.md` file where you should find useful instructions.
  - At the end of the course, you should run tests to check your results. Type command `sbt test` in the root folder of the project.
-   
-
  
 ## References
 
- - Paul Chiusano and Runar Bjarnason, "Functional programming in Scala", Manning Publications, 2014
+ - Paul Chiusano and Runar Bjarnason, ["Functional programming in Scala"][fp-in-scala], Manning Publications, 2014
+ - Philipp Haller, ["Quantifying and Explaining Immutability in Scala"][quantifying-immutability], KTH Royal Institute of Technology, Stockholm
 
-
+[sbt-install]: https://www.scala-sbt.org/0.13/docs/Setup.html
+[fp-in-scala]: https://github.com/awantik/scala-programming/blob/master/Manning%20Functional%20Programming%20in%20Scala%20(2015).pdf
+[quantifying-immutability]: https://pdfs.semanticscholar.org/b0e3/1a7485b418ddecbfdb39a606c220beb3a1df.pdf
