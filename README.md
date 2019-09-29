@@ -55,9 +55,11 @@ To start working on this project you need to go through those steps:
  
 ## References
 
- - Paul Chiusano and Runar Bjarnason, ["Functional programming in Scala"][fp-in-scala], Manning Publications, 2014
+ - Paul Chiusano and Runar Bjarnason, ["Functional programming in Scala"][fp-in-scala], Manning Publications, 2014.
  - Philipp Haller, ["Quantifying and Explaining Immutability in Scala"][quantifying-immutability], KTH Royal Institute of Technology, Stockholm
+ - Jason Swartz, ["Learning Scala"][learning-scala], O'Reilly Media, 2014.
 
 [sbt-install]: https://www.scala-sbt.org/0.13/docs/Setup.html
 [fp-in-scala]: https://github.com/awantik/scala-programming/blob/master/Manning%20Functional%20Programming%20in%20Scala%20(2015).pdf
 [quantifying-immutability]: https://pdfs.semanticscholar.org/b0e3/1a7485b418ddecbfdb39a606c220beb3a1df.pdf
+[learning-scala]: https://www.oreilly.com/library/view/learning-scala/9781449368814/
