@@ -1,9 +1,9 @@
 package io.lambdaworks.workshop.purity
 
+import io.lambdaworks.workshop.UnitSpec
 import io.lambdaworks.workshop.purity.Impure2Pure.{Participant, RankingTable, pureReverse}
-import org.scalatest.{MustMatchers, WordSpec}
 
-final class Impure2PureSpec extends WordSpec with MustMatchers {
+final class Impure2PureSpec extends UnitSpec {
   "Reverse function" when {
     "calling on the same ranking table twice" should {
       "return participants in the same order" in {

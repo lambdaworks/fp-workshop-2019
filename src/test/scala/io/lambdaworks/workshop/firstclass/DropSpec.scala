@@ -1,9 +1,9 @@
 package io.lambdaworks.workshop.firstclass
 
+import io.lambdaworks.workshop.UnitSpec
 import io.lambdaworks.workshop.firstclass.Drop.dropIf
-import org.scalatest.{MustMatchers, WordSpec}
 
-final class DropSpec extends WordSpec with MustMatchers {
+final class DropSpec extends UnitSpec {
   "DropIf function" should {
     "drop elements that satisfies predicate function" in {
       val numbers = List(1, 2, 56, 14, 7, 31, 8)

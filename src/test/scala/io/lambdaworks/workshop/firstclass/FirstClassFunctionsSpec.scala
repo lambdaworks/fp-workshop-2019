@@ -1,9 +1,9 @@
 package io.lambdaworks.workshop.firstclass
 
+import io.lambdaworks.workshop.UnitSpec
 import io.lambdaworks.workshop.firstclass.FirstClassFunctions.sortWith
-import org.scalatest.{MustMatchers, WordSpec}
 
-final class FirstClassFunctionsSpec extends WordSpec with MustMatchers {
+final class FirstClassFunctionsSpec extends UnitSpec {
   "SortBy function" should {
     "sort elements in ascending order" in new Fixture {
       val sorted: List[Int] = sortWith(numbers, (x: Int, y: Int) => x < y)
