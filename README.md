@@ -15,13 +15,15 @@ We will cover basic concepts of the functional programming and its advantages an
 You should learn where you should apply your FP knowledge and how it should help you to write more testable,
 readable and elegant code.
 
-Main topics that are covered within this repository:
- - Immutability
- - Pure functions
- - First-class functions
- - Tail recursion
- - `map`/`filter`/`reduce` functions
+## Contents
 
+- Lecture 1: [Immutability][lecture-1]
+- Lecture 2: [Pure functions][lecture-2]
+- Lecture 3: [First-class functions][lecture-3]
+- Lecture 4: [Recursion][lecture-4]
+- Lecture 5: [`map/filter/reduce` functions][lecture-5]
+- Lecture 6: [Error handling][lecture-6]
+ 
 ## Where to start?
 
 Project is written in `Scala` programming language and it uses `sbt` as build tool.
@@ -29,12 +31,12 @@ Project is written in `Scala` programming language and it uses `sbt` as build to
 To start working on this project you need to go through those steps:
  - Install sbt
    
-   You should follow instructions from this [link][sbt-install] 
+   You should follow instructions from this [link][sbt-install].
  
  - Clone the workshop repository
  
    ```bash
-   git clone [link to repo]
+   git clone https://github.com/lambdaworks/fp-workshop-2019.git
    ``` 
    
    You should feel free to fork repository and work on your own copy. Also if you think that you should improve
@@ -63,3 +65,9 @@ To start working on this project you need to go through those steps:
 [fp-in-scala]: https://github.com/awantik/scala-programming/blob/master/Manning%20Functional%20Programming%20in%20Scala%20(2015).pdf
 [quantifying-immutability]: https://pdfs.semanticscholar.org/b0e3/1a7485b418ddecbfdb39a606c220beb3a1df.pdf
 [learning-scala]: https://www.oreilly.com/library/view/learning-scala/9781449368814/
+[lecture-1]: /src/main/scala/io/lambdaworks/workshop/immutability
+[lecture-2]: /src/main/scala/io/lambdaworks/workshop/purity
+[lecture-3]: /src/main/scala/io/lambdaworks/workshop/firstclass
+[lecture-4]: /src/main/scala/io/lambdaworks/workshop/recursion
+[lecture-5]: /src/main/scala/io/lambdaworks/workshop/functions
+[lecture-6]: /src/main/scala/io/lambdaworks/workshop/exceptions
