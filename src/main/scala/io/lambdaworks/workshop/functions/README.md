@@ -46,7 +46,7 @@ should be converted to
 ```🅰 🏠 without 🅰 🐱 or 🅰 little child is 🅰 🏠 without 😂 or laughter```
 
 You have a `EmojifyText` object where you should implement your solution. 
-There are defined two useful functions that should you help to implement `emojify` function. 
+There are defined two useful functions that should help you to implement `emojify` function. 
 Force yourself to use all explained functions from this lesson (`map/filter/reduce`).
 To test your result run
 ```bash

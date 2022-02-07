@@ -3,7 +3,7 @@
 Immutability is the one of the core concepts of the functional programming (also called FP) paradigm. 
 Immutability is very important to FP approach because immutable data decreases your chances to write code with side effects. It also ensures concurrency safety and enables you to run your code in parallel.
 
-By default, Scala forces you to write immutable code, but you can still made some mistakes. With this lesson you will learn how to avoid writing mutable code. Maybe it seems to you like it is impossible, but we are going to help you to reach the goal.
+By default, Scala forces you to write immutable code, but you can still make some mistakes. With this lesson you will learn how to avoid writing mutable code. Maybe it seems to you like it is impossible, but we are going to help you to reach the goal.
 
 Your task is to read `Immutability` object and determine which types are immutable. 
 We will use four types of immutability defined for the [Scala immutability plugin][immutability-plugin-url].

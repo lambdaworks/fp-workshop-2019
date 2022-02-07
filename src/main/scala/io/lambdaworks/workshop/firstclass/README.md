@@ -7,9 +7,9 @@
 > -- <cite>[Learning Scala][learning-scala]</cite>
 
 First-class functions are important for the functional programming because they are infallible part of function composition.
-Without this concept we would not be able to make one function by composing two ore more functions.
+Without this concept we would not be able to make one function by composing two or more functions.
 
-Also, languages that threat functions as the first-class values has one another term, high-order function.
+Also, languages that treat functions as the first-class values have one another term, high-order function.
 High-order function is a function that accepts another function as an argument or it returns function as a result.
 
 You should open file `FirstClassFunctions.scala` and see real examples of high-order functions implemented in Scala. 
